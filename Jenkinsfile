@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 def getUptime() {
     def fileContent = readFile('result.txt')
     def integerValue = fileContent.find(/\d+/)?.toInteger()
