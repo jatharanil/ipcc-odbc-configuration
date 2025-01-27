@@ -34,7 +34,7 @@ pipeline {
       stage('SCM Checkout') {
             steps {
                 
-                git branch: 'main', url: 'https://github.com/sarbajitD-24/ipcc-odbc-configuration.git'
+                git branch: 'main', url: 'https://github.com/jatharanil/ipcc-odbc-configuration.git'
                 
             }
         }

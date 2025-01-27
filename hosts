@@ -1,5 +1,5 @@
 # IP for hostmachine & asteriskec2 may vary -- Subjet to Change
 
 [webservers]
-hostmachine ansible_host=172.31.24.12
-asteriskec2 ansible_host=172.31.22.17 ansible_user=root
+hostmachine ansible_host=172.31.12.94
+asteriskec2 ansible_host=172.31.8.55 ansible_user=root
